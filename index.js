@@ -13,11 +13,11 @@ function destructivelyPrependKitten(name) { //mutation add newKittenName onto Be
 
 function destructivelyRemoveLastKitten() { //mutation remove lastKittenName off end of kittens
   return kittens.pop();
-} //kittens now equals []
+} //kittens now equals ["Milo", "Otis"]
 
 function destructivelyRemoveFirstKitten() { //mutation remove lastKittenName off Beginning of kittens
   return kittens.shift();
-}
+} // kittens now equals 
 
 function appendKitten(name) { //add newKittenName to End and give newKittensArray (no mutation)
   var newKittens = [...kittens, name]
