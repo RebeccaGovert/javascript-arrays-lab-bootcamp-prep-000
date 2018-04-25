@@ -9,11 +9,11 @@ function destructivelyAppendKitten(name) { //mutation add newKittenName onto END
 
 function destructivelyPrependKitten(name) { //mutation add newKittenName onto Beginning of kittens
   return kittens.unshift(name)
-} // kiteens now equals [name, ]
+} // kiteens now equals [name,"Milo", "Otis", "Garfield", name] 
 
 function destructivelyRemoveLastKitten() { //mutation remove lastKittenName off end of kittens
   return kittens.pop();
-}
+} //kittens now equals []
 
 function destructivelyRemoveFirstKitten() { //mutation remove lastKittenName off Beginning of kittens
   return kittens.shift();
