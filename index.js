@@ -29,4 +29,6 @@ function prependKitten(name) { //add newKittenName to Beginning and give newKitt
   return newKittens;
 }
 
-function 
+function removeLastKitten() {
+  return kittens.slice(0, kittens.length - 1);
+}
