@@ -5,7 +5,7 @@ var kittens = ["Milo", "Otis", "Garfield"];
 
 function destructivelyAppendKitten(name) { //mutation add newKittenName onto END of kittens
   return kittens.push(name)
-} // kittens now equals ["Milo", "Otis", "Garfield", name];
+} // kittens now equals ["Milo", "Otis", "Garfield", name]
 
 function destructivelyPrependKitten(name) { //mutation add newKittenName onto Beginning of kittens
   return kittens.unshift(name)
@@ -22,7 +22,7 @@ function destructivelyRemoveFirstKitten() { //mutation remove lastKittenName off
 function appendKitten(name) { //add newKittenName to End and give newKittensArray (no mutation)
   var newKittens = [...kittens, name]
   return newKittens;
-} //newkittens returns []
+} //newkittens returns  ["Milo", "Otis", "Garfield", name] kittens is unchanged
 
 function prependKitten(name) { //add newKittenName to Beginning and give newKittensArray
   var newKittens = [name, ...kittens]
