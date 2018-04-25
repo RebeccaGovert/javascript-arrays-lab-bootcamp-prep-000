@@ -27,15 +27,15 @@ function appendKitten(name) { //add newKittenName to End and give newKittensArra
 function prependKitten(name) { //add newKittenName to Beginning and give newKittensArray
   var newKittens = [name, ...kittens]
   return newKittens;
-}
+} //newkittens returns  [name, "Milo", "Otis", "Garfield"] kittens is unchanged
 
 function removeLastKitten() { //remove lastKitten from END without mutation
   return kittens.slice(0, kittens.length - 1);
-}
+} //newkittens returns  ["Milo", "Otis"] kittens is unchanged
 
 function removeFirstKitten() { //remove firstKitten from END without mutation
   return kittens.slice(1);
-}
+} // newkittens returns  ["Otis", "Garfield"] kittens is unchanged
 
 
 
