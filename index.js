@@ -20,6 +20,12 @@ function destructivelyRemoveFirstKitten() { //mutation remove lastKittenName off
 }
 
 function appendKitten(name) { //add newKittenName to End and give newKittensArray (no mutation)
-  var newKittens= [...kittens, name]
+  var newKittens = [...kittens, name]
   return newKittens;
 }
+
+function prependKitten(name) { //add newKittenName to Beginning and give newKittensArray
+  var newKitens = [name, ...kittens];
+  return newKitens;
+}
+
