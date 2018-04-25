@@ -33,4 +33,9 @@ function removeLastKitten() { //remove lastKitten from END without mutation
   return kittens.slice(0, kittens.length - 1);
 }
 
-function 
+function removeFirstKitten() { //remove firstKitten from END without mutation
+  return kittens.slice(1);
+}
+
+
+
