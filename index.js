@@ -15,6 +15,7 @@ function destructivelyRemoveLastKitten() { //mutation remove lastKittenName off 
   return kittens.pop();
 }
 
-function destructivelyRemoveFirstKitten() {
+function destructivelyRemoveFirstKitten() { //mutation remove lastKittenName off Beginning of kittens
   return kittens.shift();
 }
+
