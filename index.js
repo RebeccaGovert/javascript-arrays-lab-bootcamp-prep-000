@@ -29,6 +29,8 @@ function prependKitten(name) { //add newKittenName to Beginning and give newKitt
   return newKittens;
 }
 
-function removeLastKitten() {
+function removeLastKitten() { //remove lastKitten from END without mutation
   return kittens.slice(0, kittens.length - 1);
 }
+
+function 
